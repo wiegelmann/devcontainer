@@ -11,4 +11,5 @@ nvm use 24
 
 npm install typescript --save-dev
 
+echo 'export PATH="./node_modules/.bin:$PATH"' >> ~/.bashrc
 
