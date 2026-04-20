@@ -1,0 +1,8 @@
+apiVersion: devcontainer.everproc.com/v1alpha1
+kind: Workspace
+metadata:
+  name: jan-dev
+  namespace: devcontainer-operator
+spec:
+  gitUrl: https://github.com/wiegelmann/devcontainer
+  gitHashOrTag: main
